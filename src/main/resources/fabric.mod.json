@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "cs2knives",
+  "version": "${version}",
+  "name": "CS2 Knives (client)",
+  "description": "Client-side CS2 knife collection: inspect knives, open cases, browse your inventory.",
+  "authors": ["you"],
+  "license": "personal use",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.cs2knives.Cs2KnivesClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
